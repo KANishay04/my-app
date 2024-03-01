@@ -1,0 +1,38 @@
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    z-index: 999;
+  }
+  
+  .tooltip-top {
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .tooltip-right {
+    top: 50%;
+    left: calc(100% + 10px);
+    transform: translateY(-50%);
+  }
+  
+  .tooltip-left {
+    top: 50%;
+    right: calc(100% + 10px);
+    transform: translateY(-50%);
+  }
+  
+  .tooltip-bottom {
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
